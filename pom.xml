@@ -51,7 +51,7 @@
 		<repository>
 			<id>test123</id>
 			<name>test123</name>
-			<url>http://13.232.112.78:8081/artifactory/test123</url>
+			<url>http://13.233.87.111:8081/artifactory/PersonalRepo/</url>
 		</repository>
 			</distributionManagement>
 
