@@ -47,13 +47,18 @@
 
         </plugins>
     </build>
-       	<distributionManagement>
-		<repository>
-			<id>PersonalRepo</id>
-			<name>PersonalRepo</name>
-			<url>http://13.233.87.111:8081/artifactory/PersonalRepo/</url>
-		</repository>
-			</distributionManagement>
+ <distributionManagement>
+        <repository>
+        <id>central</id>
+        <name>localhost-releases</name>
+        <url>http://13.233.87.111:8081/artifactory/MavenRepo</url>
+        </repository>
+     <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost-snapshots</name>
+        <url>http://13.233.87.111:8081/artifactory/MavenRepo</url>
+     </snapshotRepository>
+</distributionManagement>
 
     <artifactId>myapp</artifactId>
 </project>
