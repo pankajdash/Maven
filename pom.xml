@@ -45,5 +45,6 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>  
+    </build>
+    <artifactId>myapp</artifactId>
 </project>
