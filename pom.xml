@@ -46,5 +46,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+		<repository>
+			<id> MavenRepo1</id>
+			<name> MavenRepo1</name>
+			<url>http://13.126.71.23:8081/artifactory/MavenRepo1/</url>
+		</repository>
+	</distributionManagement>
     <artifactId>myapp</artifactId>
 </project>
